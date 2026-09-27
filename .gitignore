@@ -1,0 +1,37 @@
+# ==================== Visual Studio 编译产物 ====================
+Debug/
+Release/
+x64/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.exe
+*.tlog
+*.lastbuildstate
+*.log
+
+# 调试数据库 / 用户配置
+*.sdf
+*.opensdf
+*.suo
+*.user
+
+# ==================== IDE 配置 ====================
+.vs/
+.idea/
+
+# ==================== 本地留档，不参与上传 ====================
+# 历史版本源码
+opencv_1/7.20.cpp
+opencv_1/7.29.2.cpp
+opencv_1/7.30.1.cpp
+opencv_1/8.21.cpp
+opencv_1/8.22.2.cpp
+
+# 工程副本
+opencv_1 - 副本/
+
+# 运行输出的中间图片
+opencv_1/*.png
